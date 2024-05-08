@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.cdnfonts.com/css/skuer" rel="stylesheet">
+    <title>Menu de christian</title>
+
+</head>
+<body>
+    <style>
+        img{
+            width: 200px;
+            height: auto;
+
+        }
+        table th,td{
+            border: 1px dotted rgb(50, 6, 243);
+        }
+        table{
+            width: 80%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            box-shadow: 0 5px 15px black;
+            margin-left: 50px;
+        }
+        th, tr{
+            text-align: left;
+            padding: 8px;
+
+        }   
+        tr:nth-child(even){
+            background-color: rgb(5, 170, 55);
+        } 
+        tr:hover{
+            background-color: rgb(248, 11, 3);
+        }
+    </style>
+    <div style="margin :24px;">
+        <nav class="nav navbar-light" style ="background-color: black;"> 
+            <div class="container">
+                <a class="navbar-brand" href="index.html" style="color: aqua;">INICIO</a>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="nav navbar-nav">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Unidad 1</a>
+                            <div class="dropdown-menu"
+                            aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item"
+                        href="PERFIL.html">Perfil</a><br>
+                        <a class="dropdown-item"
+                        href="calculadora.html">Calculadora</a><br>
+                        <a class="dropdown-item"
+                        href="tienda.html">Tienda parte 1</a>
+
+                        </div>
+                            
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false" >Unidad 2</a>
+                            <div class="dropdown-menu"
+                            aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item"
+                        href="TiendaPedido.html">tienda pedido</a><br>
+                        <a class="dropdown-item"
+                        href="json.html">JSON</a><br>
+                        <a class="dropdown-item"
+                        href="tiendaPedido2.html">Tienda parte 2</a>
+
+                        </div>
+                            
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false" >Unidad 3</a>
+                            <div class="dropdown-menu"
+                            aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item"
+                        href="basededatos.html">base de datos</a><br>
+                        <a class="dropdown-item"
+                        href="peliculas.html">Peliculas</a><br>
+                       
+                        </div>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+    </div>
+    <h1>DESAYUNO</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>descripcion</th>
+            <th>precio</th>
+        </tr>
+        <tr>
+            <td><img src="img/1.jpg" alt="DESAYUNO"></td>
+            <td><P>EL PLATO PRESENTA UN CAFE ACOMPAÑADO DE FRUTOS ROJOS CON UN TOQUE ALMENDRAS Y AVENA TODO LO QUE NECESITA EL CUERPO DE ENERGIA </P></td>
+            <td>$150.00</td>
+        </tr>
+        <td><img src="img/2.jpg" alt="DESAYUNO"></td>
+        <td><P>EL PLATO PRESENTA UN LICUADO ACOMPAÑADO DE FRUTOS ROJOS Y JUGO DE NARANJA CON UN TOQUE DE ALGUNAS FRUTAS Y AVENAS EN EL PLATO </P></td>
+        <td>$160.00</td>
+        <tr>
+            <td><img src="img/3.jpg" alt="DESAYUNO"></td>
+            <td><P>EL PLATO PRESENTA UN CAFE Y JUGO DE NARANJA ACOMPAÑADO HUEVOS ESTRELLADOS,TOCINO,PAN INTEGRAL Y UNOS HOT CAKES   </P></td>
+            <td>$200.00</td>
+            <tr>
+            <td><img src="img/4.jpg" alt="DESAYUNO"></td>
+            <td><P>EL PLATO PRESENTA UNOS WAFFLES CON UN TOQUE DE CREMA Y FRUTOS ROJOS </P></td>
+            <td>$120.00</td>
+         <tr>
+             <td><img src="img/5.jpg" alt="DESAYUNO"></td>
+             <td><P>EL PLATO PRESENTA AVENA ACOMPAÑADO DE FRUTOS ROJOS CON PROPORCIONES DIVIDIDAS PARA CADA O DIFERENTE AVENA </P></td>
+             <td>$180.00</td>
+         <tr>
+            <td><img src="img/6.jpeg" alt="DESAYUNO"></td>
+            <td><P>EL PLATO CONTIENE HUEVOS ESTRELLADOS CON ALGUNOS VERDURAS COMO EL BROCOLI,AGUACATE Y PECHUGA NO VIENE INCLUIDA LA BEBIDA ES APARTE  </P></td>
+            <td>$180.00</td>
+            <tr>
+            </table>
+            <h1>ALMUERZO</h1> 
+            <table>
+       <tr>
+        <th>Imagen</th>
+        <th>descripcion</th>
+        <th>precio</th>
+    </tr>
+    </tr>
+             <td><img src="img/7.jpeg" alt="ALMUERZO"></td>
+             <td><P>arroz frito con verduras y trozos de pollo, adornado con hojas de cilantro fresco. El arroz frito está mezclado con trozos visibles de pollo, guisantes verdes, zanahorias picadas y posiblemente otros ingredientes no identificables a simple vista. Las hojas frescas de cilantro esparcidas por encima del arroz dan un toque de color verde vibrante. </P></td>
+             <td>$90.00</td>
+         <tr>
+             <td><img src="img/8.jpeg" alt="ALMUERZO"></td>
+             <td><P>plato de flautas adornados con crema, queso y salsa. Los flautas están generosamente adornados con crema drizada encima. También hay trozos de queso esparcidos sobre los flautas, añadiendo un toque cremoso. Pequeños trozos de tomate rojo y cebolla blanca están esparcidos por encima, dando color y frescura al plato.  </P></td>
+              <td>$180.00</td>
+         <tr>
+             <td><img src="img/9.jpeg" alt="ALMUERZO"></td>
+             <td><P>un plato de chilaquiles verdes adornado con crema, queso rallado, cebolla y tomate. Los chilaquiles están en un plato decorado con patrones azules y blancos. Están cubiertos con una generosa cantidad de salsa verde. Además, hay crema blanca esparcida por encima de los chilaquiles y trozos de queso rallado blanco. Rodajas de cebolla blanca y trozos de tomate rojo adornan la parte superior del platillo. </P></td>
+             <td>$170.00</td>
+         <tr>
+             <td><img src="img/10.jpeg" alt="ALMUERZO"></td>
+             <td><P>plato de enchiladas adornado con queso, rábanos y lechuga. Las enchiladas están generosamente cubiertas con queso desmenuzado blanco. También hay rodajas de rábano fresco y crujiente esparcidas por encima, añadiendo un toque de color y textura. Hojas verdes, posiblemente lechuga o cilantro, también se esparcen sobre las enchiladas para dar frescura al plato. </P></td>
+             <td>$220.00</td>
+         <tr>
+             <td><img src="img/11.jpeg" alt="ALMUERZO"></td>
+             <td><P>sopes con toppings coloridos servidos en un plato azul. Cada sope está cubierto con una capa de frijoles, carne, lechuga picada, tomate, aguacate y queso desmenuzado. Hay una rodaja de limón a un lado del plato que añade un toque de color y sugiere una opción para realzar el sabor. </P></td>
+             <td>$100.00</td>
+         <tr>
+            <td><img src="img/12.jpeg" alt="ALMUERZO"></td>
+            <td><P>Cada burrito está hecho con tortillas de harina blanca y está relleno de ingredientes que parecen ser carne, arroz y verduras, mostrando un interior colorido. Hay un tazón de guacamole visible en la parte superior izquierda, aunque está parcialmente cortado.  </P></td>
+            <td>$80.00</td>
+         </tr>
+            <table>
+                <h1>COMIDA APERITIVOS</h1> 
+                <table>
+           <tr>
+            <th>Imagen</th>
+            <th>descripcion</th>
+            <th>precio</th>
+        </tr>
+        </tr>
+                 <td><img src="img/13.jpeg" alt="COMIDA APERITIVOS"></td>
+                 <td><P>el plato contiene pure de papas con un trozo de cilantro y alrededor lo acompañan galletas salada frutas y verduras en especial como el picor etc. </P></td>
+                 <td>$80.00</td>
+             <tr>
+                 <td><img src="img/14.jpeg" alt="COMIDA APERITIVOS"></td>
+                 <td><P>brochetas de vegetales y queso. Cada brocheta está compuesta por una variedad de vegetales y trozos de queso ensartados en un pincho. Los vegetales incluyen tomates rojos, rodajas de pepino verde y rodajas de berenjena morada. Además, hay trozos de queso amarillo intercalados entre los vegetales en las brochetas </P></td>
+                  <td>$55.00</td>
+             <tr>
+                 <td><img src="img/15.jpeg" alt="COMIDA APERITIVOS"></td>
+                 <td><P>galletas en forma de estrella decoradas con glaseado y granos de granada, dispuestas en una tabla de madera. Las galletas están decoradas con un glaseado blanco y adornadas con granos rojos brillantes de granada que parecen simular ornamentos. A la izquierda, se observan piñas y ramas verdes que añaden un toque festivo a la composición </P></td>
+                 <td>$70.00</td>
+             <tr>
+                 <td><img src="img/16.jpeg" alt="COMIDA APERITIVOS"></td>
+                 <td><P> en un plato grande, incluyendo tacos, quesadillas, y otros bocados deliciosos. Las quesadillas y tortillas suaves están cortadas en triángulos y dispuestas en forma de abanico. En la parte superior derecha del plato, hay pequeñas porciones redondas que parecen ser bruschettas con tomate y queso. En el centro del plato hay un tazón con una salsa espesa y rica; parece ser salsa de tomate o algo similar. A la izquierda del tazón central, se encuentran rollitos que parecen estar cubiertos con una salsa roja brillante y semillas de sésamo blanco esparcidas encima. En la parte inferior del plato hay tacos rellenos con guacamole visible </P></td>
+                 <td>$120.00</td>
+             <tr>
+                 <td><img src="img/17.jpeg" alt="COMIDA APERITIVOS"></td>
+                 <td><P> plato de nachos con una taza de salsa en el centro. Los nachos son triangulares, delgados y crujientes, y están dispuestos alrededor de una pequeña taza de salsa que parece ser picante o a base de tomate </P></td>
+                 <td>$65.00</td>
+             <tr>
+                <td><img src="img/18.jpeg" alt="COMIDA APERITIVOS"></td>
+                <td><P>papa asada con varios ingredientes encima, servida en un recipiente de aluminio. Los ingredientes parecen ser carne y vegetales </P></td>
+                <td>$100.00</td>
+             </tr>
+                <table>
+                    <h1>POSTRE</h1> 
+                    <table>
+               <tr>
+                <th>Imagen</th>
+                <th>descripcion</th>
+                <th>precio</th>
+            </tr>
+            </tr>
+                     <td><img src="img/19.jpeg" alt="POSTRE"></td>
+                     <td><P>flan con caramelo servido en un plato blanco, acompañado de una cuchara. El flan es un postre suave y delicioso, cubierto con caramelo líquido que se derrama por los lados </P></td>
+                     <td>$55.00</td>
+                 <tr>
+                     <td><img src="img/20.jpeg" alt="POSTRE"></td>
+                     <td><P>El pastel de queso tiene una base crujiente y un relleno cremoso, y está cubierto con caramelo líquido que se derrama por los lados. </P></td>
+                      <td>$70.00</td>
+                 <tr>
+                     <td><img src="img/21.jpeg" alt="POSTRE"></td>
+                     <td><P>pastel de lima decorada con una fresa y espolvoreada con ralladura de lima, acompañada de rodajas de lima fresca </P></td>
+                     <td>$90.00</td>
+                 <tr>
+                     <td><img src="img/22.jpeg" alt="POSTRE"></td>
+                     <td><P>pastel de manzana decorada con rodajas de lima, una frambuesa y hojas de menta. El pastel está servido en un plato blanco que resalta el color amarillo claro del pastel. </P></td>
+                     <td>$200.00</td>
+                 <tr>
+                     <td><img src="img/23.jpeg" alt="POSTRE"></td>
+                     <td><P> churros dorados y crujientes en un plato blanco. Los churros son largos y delgados, con una textura crujiente visible. </P></td>
+                     <td>$30.00</td>
+                 <tr>
+                    <td><img src="img/24.jpeg" alt="POSTRE"></td>
+                    <td><P> El arroz con leche está espolvoreado con canela molida en la parte superior </P></td>
+                    <td>$80.00</td>
+                 </tr>
+                    <table>
+                        <h1>BEBIDAS</h1> 
+                        <table>
+                   <tr>
+                    <th>Imagen</th>
+                    <th>descripcion</th>
+                    <th>precio</th>
+                </tr>
+                </tr>
+                         <td><img src="img/25.jpeg" alt="BEBIDAS"></td>
+                         <td><P> La botella es transparente, mostrando el líquido oscuro en su interior. Tiene una etiqueta roja con el logo de Coca-Cola escrito en blanco. El tapón de la botella es rojo.  </P></td>
+                         <td>$30.00</td>
+                     <tr>
+                         <td><img src="img/26.jpeg" alt="BEBIDAS"></td>
+                         <td><P>un cóctel rojo con una rodaja de limón y una pajita verde, servido en un vaso adornado con sal en el borde. La bebida es de color rojo intenso, posiblemente un Bloody Mary o algún tipo de cóctel a base de jugo de tomate. Hay una rodaja de limón amarillo adherida al borde del vaso </P></td>
+                          <td>$55.00</td>
+                     <tr>
+                         <td><img src="img/27.jpeg" alt="BEBIDAS"></td>
+                         <td><P>cóctel tropical con una piña y un coco a su lado. El cóctel es de color blanco cremoso y se encuentra en un vaso alto. Está adornado con una rodaja de piña y una cereza. </P></td>
+                         <td>$45.00</td>
+                     <tr>
+                         <td><img src="img/28.jpeg" alt="BEBIDAS"></td>
+                         <td><P>whisky con hielo y una rodaja de lima, acompañado de más limas y otro vaso en el fondo. El vaso principal está lleno de whisky con hielo, y la rodaja de lima añade un toque fresco a la bebida </P></td>
+                         <td>$65.00</td>
+                     <tr>
+                         <td><img src="img/29.jpeg" alt="BEBIDAS"></td>
+                         <td><P>vaso de cóctel con un borde escarchado y una rodaja de lima. El vaso principal está lleno de agua mineral con hielo, y la rodaja de lima añade un toque fresco a la bebida </P></td>
+                         <td>$40.00</td>
+                     <tr>
+                        <td><img src="img/30.jpeg" alt="BEBIDAS"></td>
+                        <td><P>vaso de agua transparente lleno hasta el borde </P></td>
+                        <td>00.00</td>
+                     </tr>
+                        <table>
+                        
+                                   
+</body>
+</html>
